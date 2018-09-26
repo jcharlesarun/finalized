@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Demo Beautiful Registration Form with HTML5 and CSS3</title>
+<style>div.form {
+  opacity: 0.9;
+ 
+}</style>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="demo.css" media="all" />
+</head>
+<body>
+<div class="container">
+	
+			<header>
+				<h1>WELCOME NEW USER!</h1>
+            </header>       
+      <div  class="form">
+    		<form id="contactform" action="insert.php" method="POST"> 
+    			<p class="contact"><label for="name">First Name</label></p> 
+    			<input id="name" name="name" placeholder="Enter Your first Name" required="" tabindex="1" type="text"> 
+              	<p class="contact"><label for="lastname">Last Name</label></p> 
+    			<input id="lastname" name="lastname" placeholder="Enter Your last Name" required="" tabindex="1" type="text"> 
+                  
+                <p class="contact"><label for="password">Create your password</label></p> 
+    			<input type="password" id="password" name="password" placeholder="Enter the Password" required=""> 
+    			 
+                <p class="contact"><label for="male">Gender</label></p>
+                &nbsp;&nbsp;
+                <input type="radio" name="gender" id="male"> 
+                <label for="m">Male</label>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <input type="radio" name="gender" id="female"> 
+               <label for="f">Female</label>
+                
+    			<p class="contact"><label for="email">Email</label></p> 
+    			<input id="email" name="email" placeholder="sample@domain.com" required="" type="email"> 
+                                
+                <fieldset>
+                 <label>Department</label></br>
+                  <label class="month"> 
+                  <select class="select-style" name="dept">
+                  <option value="">Department</option>
+                  <option  value="1">IT</option>
+                  <option value="2">CSE</option>
+                  <option value="3" >MECH</option>
+                  <option value="4">EEE</option>
+                  <option value="5">ECE</option>
+                  <option value="6">CIVIL</option>
+                  </label>
+                 </select>    
+                &nbsp;
+              </fieldset></br>
+  
+                
+        
+               <fieldset>
+                 <label>Year</label></br>
+                  <label class="month"> 
+                  <select class="select-style" name="year">
+                  <option value="">Year</option>
+                  <option  value="1">1st Year</option>
+                  <option value="2">2nd Year</option>
+                  <option value="3" >3rd Year</option>
+                  <option value="4">4th Year</option>
+                  </label>
+                 </select>    
+                &nbsp;
+              </fieldset></br></br>
+              
+            <center>
+                <input class="buttom" name="submit" id="submit" tabindex="5" value="Sign up!" type="submit"> 	</center> 
+   </form> 
+</div>      
+</div>
+
+</body>
+</html>
